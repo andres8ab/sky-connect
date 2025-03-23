@@ -53,7 +53,7 @@ const Nav = ({ openNav }: Props) => {
           {navLinks.map((link) => {
             return (
               <Link href={link.url} key={link.id}>
-                <p className="relative text-blue-400 dark:text-white/80 hover:text-blue-500 dark:hover:text-cyan-400 after:block after:content-[''] after:w-full after:h-[3px] after:bg-cyan-400 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right">
+                <p className="relative text-blue-200 dark:text-white/80 hover:text-blue-500 dark:hover:text-cyan-400 after:block after:content-[''] after:w-full after:h-[3px] after:bg-cyan-400 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right">
                   {link.title}
                 </p>
               </Link>
