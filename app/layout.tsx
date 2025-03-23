@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Providers from "./providers";
 import ResponsiveNav from "@/components/Navbar/ResponsiveNav";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({
           <Providers>
             <ResponsiveNav />
             {children}
+            <Footer />
           </Providers>
         </ThemeProvider>
       </body>

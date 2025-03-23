@@ -23,6 +23,41 @@ const AirportMap = dynamic(() => import("@/components/AirportMap"), {
   ssr: false,
 });
 
+const tabs = [
+  { id: "general", label: "General", Icon: InformationCircleIcon },
+  { id: "ubicacion", label: "Ubicación", Icon: MapIcon },
+  { id: "zonahoraria", label: "Zona Horaria", Icon: ClockIcon },
+  { id: "estadisticas", label: "Estadísticas", Icon: ChartBarIcon },
+  { id: "enlaces", label: "Enlaces", Icon: LinkIcon },
+];
+
+const TabButton = ({
+  id,
+  label,
+  Icon,
+  isActive,
+  onClick,
+}: {
+  id: string;
+  label: string;
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  isActive: boolean;
+  onClick: () => void;
+}) => (
+  <button
+    key={id}
+    onClick={onClick}
+    className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
+      isActive
+        ? "border-blue-500 text-blue-600 dark:text-blue-400"
+        : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-right after:bottom-0"
+    } `}
+  >
+    <Icon className="h-5 w-5 md:mr-2" />
+    <span className="hidden md:inline">{label}</span>
+  </button>
+);
+
 export default function AirportDetails() {
   const params = useParams();
   const code = params.code as string;
@@ -585,7 +620,7 @@ export default function AirportDetails() {
   };
 
   return (
-    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-[120vh] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto mt-[12vh]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -608,61 +643,16 @@ export default function AirportDetails() {
             {/* Tabs */}
             <div className="border-b border-gray-200 dark:border-gray-700 mb-6 overflow-x-auto">
               <nav className="flex justify-around">
-                <button
-                  onClick={() => setActiveTab("general")}
-                  className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
-                    activeTab === "general"
-                      ? "border-blue-500 text-blue-600 dark:text-blue-400"
-                      : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after-origin-right after:bottom-0"
-                  }`}
-                >
-                  <InformationCircleIcon className="h-5 w-5 md:mr-2" />
-                  <span className="hidden md:inline">General</span>
-                </button>
-                <button
-                  onClick={() => setActiveTab("ubicacion")}
-                  className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
-                    activeTab === "ubicacion"
-                      ? "border-blue-500 text-blue-600 dark:text-blue-400"
-                      : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after-origin-right after:bottom-0"
-                  }`}
-                >
-                  <MapIcon className="h-5 w-5 md:mr-2" />
-                  <span className="hidden md:inline">Ubicación</span>
-                </button>
-                <button
-                  onClick={() => setActiveTab("zonahoraria")}
-                  className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
-                    activeTab === "zonahoraria"
-                      ? "border-blue-500 text-blue-600 dark:text-blue-400"
-                      : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after-origin-right after:bottom-0"
-                  }`}
-                >
-                  <ClockIcon className="h-5 w-5 md:mr-2" />
-                  <span className="hidden md:inline">Zona Horaria</span>
-                </button>
-                <button
-                  onClick={() => setActiveTab("estadisticas")}
-                  className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
-                    activeTab === "estadisticas"
-                      ? "border-blue-500 text-blue-600 dark:text-blue-400"
-                      : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after-origin-right after:bottom-0"
-                  }`}
-                >
-                  <ChartBarIcon className="h-5 w-5 md:mr-2" />
-                  <span className="hidden md:inline">Estadísticas</span>
-                </button>
-                <button
-                  onClick={() => setActiveTab("enlaces")}
-                  className={`pb-4 px-1 inline-flex items-center border-b-2 font-medium text-sm cursor-pointer ${
-                    activeTab === "enlaces"
-                      ? "border-blue-500 text-blue-600 dark:text-blue-400"
-                      : "border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 relative after:block after:content-[''] after:w-full after:h-[3px] after:bg-gray-300 after:absolute after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after-origin-right after:bottom-0"
-                  }`}
-                >
-                  <LinkIcon className="h-5 w-5 md:mr-2" />
-                  <span className="hidden md:inline">Enlaces</span>
-                </button>
+                {tabs.map(({ id, label, Icon }) => (
+                  <TabButton
+                    key={id}
+                    id={id}
+                    label={label}
+                    Icon={Icon}
+                    isActive={activeTab === id}
+                    onClick={() => setActiveTab(id)}
+                  />
+                ))}
               </nav>
             </div>
 
