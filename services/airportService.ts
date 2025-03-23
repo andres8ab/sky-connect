@@ -2,7 +2,7 @@ import axios from "axios";
 import { AirportResponse } from "@/types/airport";
 
 const API_KEY = process.env.NEXT_PUBLIC_AVIATIONSTACK_API_KEY;
-const BASE_URL = "http://api.aviationstack.com/v1";
+const BASE_URL = "https://api.aviationstack.com/v1";
 
 export const airportService = {
   async getAirports(

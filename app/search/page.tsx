@@ -31,13 +31,13 @@ export default function Search() {
   // Error handling
   if (error) {
     return (
-      <div className="min-h-screen py-12 px-4 mt-[12vh] sm:px-6 lg:px-8">
+      <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto mt-[12vh]">
           <div className="bg-red-50 dark:bg-red-900 border border-red-200 dark:border-red-800 rounded-lg p-4">
             <p className="text-red-700 dark:text-red-300">
               {error instanceof Error
                 ? error.message
-                : "Failed to fetch airports"}
+                : "Error al obtener los aeropuertos"}
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Search() {
 
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto mt-[12vh] ">
+      <div className="max-w-7xl mx-auto mt-[12vh]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
