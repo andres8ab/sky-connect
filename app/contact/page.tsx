@@ -1,6 +1,6 @@
 import React from "react";
-import { Testimonials } from "../../components/Testimonials";
 import { Input } from "@/components/ui/input";
+import { Testimonials } from "@/components/contact/Testimonials";
 
 export default function Contact() {
   return (

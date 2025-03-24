@@ -89,6 +89,7 @@ sky-connect/
 ├── components/            # React components
 ├── constants/             # data constants
 ├── data/                  # data for components
+├── hooks/                 # hooks for components
 ├── lib/                   # utils
 ├── services/              # API services
 ├── store/                 # Zustand store

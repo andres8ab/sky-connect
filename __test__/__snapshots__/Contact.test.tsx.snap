@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should have Testimonios text 1`] = `
+<div>
+  <div
+    class="min-h-screen py-12 px-4 sm:px-6 lg:px-8"
+  >
+    <div
+      class="max-w-7xl mx-auto mt-[12vh] "
+    >
+      <h1
+        class="text-2xl text-center font-bold text-black dark:text-white uppercase"
+      >
+        Testimonios
+      </h1>
+      <div
+        class="mx-auto max-w-sm px-4 py-20 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12"
+      >
+        <div
+          class="relative grid grid-cols-1 gap-20 md:grid-cols-2"
+        >
+          <div>
+            <div
+              class="relative h-80 w-full"
+            >
+              <div
+                class="absolute inset-0 origin-bottom"
+                style="opacity: 0; transform: translateZ(-100px) scale(0.9) rotate(-8deg);"
+              >
+                <img
+                  alt="Sarah Chen"
+                  class="h-full w-full rounded-3xl object-cover object-center"
+                  data-nimg="1"
+                  decoding="async"
+                  draggable="false"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1535713875002-d1d0cf377fde%3Fq%3D80%26w%3D3560%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1535713875002-d1d0cf377fde%3Fq%3D80%26w%3D3560%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1535713875002-d1d0cf377fde%3Fq%3D80%26w%3D3560%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+              <div
+                class="absolute inset-0 origin-bottom"
+                style="opacity: 0; transform: translateZ(-100px) scale(0.9) rotate(-6deg);"
+              >
+                <img
+                  alt="Michael Rodriguez"
+                  class="h-full w-full rounded-3xl object-cover object-center"
+                  data-nimg="1"
+                  decoding="async"
+                  draggable="false"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1438761681033-6461ffad8d80%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1438761681033-6461ffad8d80%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1438761681033-6461ffad8d80%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+              <div
+                class="absolute inset-0 origin-bottom"
+                style="opacity: 0; transform: translateZ(-100px) scale(0.9) rotate(-4deg);"
+              >
+                <img
+                  alt="Emily Watson"
+                  class="h-full w-full rounded-3xl object-cover object-center"
+                  data-nimg="1"
+                  decoding="async"
+                  draggable="false"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1623582854588-d60de57fa33f%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1623582854588-d60de57fa33f%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1623582854588-d60de57fa33f%3Fq%3D80%26w%3D3540%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+              <div
+                class="absolute inset-0 origin-bottom"
+                style="opacity: 0; transform: translateZ(-100px) scale(0.9) rotate(-2deg);"
+              >
+                <img
+                  alt="James Kim"
+                  class="h-full w-full rounded-3xl object-cover object-center"
+                  data-nimg="1"
+                  decoding="async"
+                  draggable="false"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1636041293178-808a6762ab39%3Fq%3D80%26w%3D3464%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1636041293178-808a6762ab39%3Fq%3D80%26w%3D3464%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1636041293178-808a6762ab39%3Fq%3D80%26w%3D3464%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+              <div
+                class="absolute inset-0 origin-bottom"
+                style="opacity: 0; transform: translateZ(-100px) scale(0.9);"
+              >
+                <img
+                  alt="Lisa Thompson"
+                  class="h-full w-full rounded-3xl object-cover object-center"
+                  data-nimg="1"
+                  decoding="async"
+                  draggable="false"
+                  height="500"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1624561172888-ac93c696e10c%3Fq%3D80%26w%3D2592%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1624561172888-ac93c696e10c%3Fq%3D80%26w%3D2592%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1624561172888-ac93c696e10c%3Fq%3D80%26w%3D2592%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=1080&q=75 2x"
+                  style="color: transparent;"
+                  width="500"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col justify-between py-4"
+          >
+            <div
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <h3
+                class="text-2xl font-bold text-black dark:text-white"
+              >
+                Sarah Chen
+              </h3>
+              <p
+                class="text-sm text-gray-500 dark:text-neutral-500"
+              >
+                Product Manager en TechFlow
+              </p>
+              <p
+                class="mt-8 text-lg text-gray-500 dark:text-neutral-300"
+              >
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  La
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  atención
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  al
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  detalle
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  y
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  las
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  funciones
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  innovadoras
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  han
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  transformado
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  por
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  completo
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  nuestro
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  flujo
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  de
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  trabajo.
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  Es
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  exactamente
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  lo
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  que
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  estábamos
+                   
+                </span>
+                <span
+                  class="inline-block"
+                  style="filter: blur(10px); opacity: 0; transform: translateY(5px);"
+                >
+                  buscando.
+                   
+                </span>
+              </p>
+            </div>
+            <div
+              class="flex gap-4 pt-12 md:pt-0"
+            >
+              <button
+                class="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400"
+                  data-slot="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                class="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400"
+                  data-slot="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-[80%] lg:w-[50%] flex flex-col gap-4 justify-self-center"
+      >
+        <h1
+          class="text-2xl text-center font-bold text-black dark:text-white uppercase"
+        >
+          Deja tu mensaje
+        </h1>
+        <div
+          class="group/input rounded-lg p-[2px] transition duration-300"
+        >
+          <input
+            class="shadow-input dark:placeholder-text-neutral-600 flex h-10 w-full rounded-md border-none bg-gray-50 px-3 py-2 text-sm text-black transition duration-400 group-hover/input:shadow-none file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral-400 focus-visible:ring-[2px] focus-visible:ring-neutral-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-800 dark:text-white dark:shadow-[0px_0px_1px_1px_#404040] dark:focus-visible:ring-neutral-600"
+            id="nombre"
+            placeholder="John"
+            type="text"
+          />
+        </div>
+        <div
+          class="group/input rounded-lg p-[2px] transition duration-300"
+        >
+          <input
+            class="shadow-input dark:placeholder-text-neutral-600 flex h-10 w-full rounded-md border-none bg-gray-50 px-3 py-2 text-sm text-black transition duration-400 group-hover/input:shadow-none file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral-400 focus-visible:ring-[2px] focus-visible:ring-neutral-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-800 dark:text-white dark:shadow-[0px_0px_1px_1px_#404040] dark:focus-visible:ring-neutral-600"
+            id="apellido"
+            placeholder="Doe"
+            type="text"
+          />
+        </div>
+        <div
+          class="group/input rounded-lg p-[2px] transition duration-300"
+        >
+          <input
+            class="shadow-input dark:placeholder-text-neutral-600 flex h-10 w-full rounded-md border-none bg-gray-50 px-3 py-2 text-sm text-black transition duration-400 group-hover/input:shadow-none file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral-400 focus-visible:ring-[2px] focus-visible:ring-neutral-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-800 dark:text-white dark:shadow-[0px_0px_1px_1px_#404040] dark:focus-visible:ring-neutral-600"
+            id="email"
+            placeholder="john.doe@gmail.com"
+            type="email"
+          />
+        </div>
+        <div
+          class="group/input rounded-lg p-[2px] transition duration-300"
+        >
+          <input
+            class="shadow-input dark:placeholder-text-neutral-600 flex h-10 w-full rounded-md border-none bg-gray-50 px-3 py-2 text-sm text-black transition duration-400 group-hover/input:shadow-none file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral-400 focus-visible:ring-[2px] focus-visible:ring-neutral-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-800 dark:text-white dark:shadow-[0px_0px_1px_1px_#404040] dark:focus-visible:ring-neutral-600"
+            id="message"
+            placeholder="Hola, me gustaria..."
+            type="text"
+          />
+        </div>
+        <button
+          class="group/btn relative cursor-pointer block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
+          type="submit"
+        >
+          Enviar
+          <span
+            class="absolute inset-x-0 -bottom-px block h-px w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-0 transition duration-500 group-hover/btn:opacity-100"
+          />
+          <span
+            class="absolute inset-x-10 -bottom-px mx-auto block h-px w-1/2 bg-gradient-to-r from-transparent via-indigo-500 to-transparent opacity-0 blur-sm transition duration-500 group-hover/btn:opacity-100"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

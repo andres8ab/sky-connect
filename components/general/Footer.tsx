@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { socialMedia } from "../data";
+import { socialMedia } from "../../data";
 
 const Footer = () => {
   return (

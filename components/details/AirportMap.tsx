@@ -28,7 +28,7 @@ export default function AirportMap({
   console.log(airport);
 
   return (
-    <div className={`w-full h-[400px] rounded-lg overflow-hidden ${className}`}>
+    <div className={`w-full h-[350px] rounded-lg overflow-hidden ${className}`}>
       <MapContainer
         center={[latitude, longitude]}
         zoom={13}

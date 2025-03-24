@@ -31,4 +31,26 @@ export interface SearchQueryHistory {
   timestamp: number;
 }
 
+export interface AdditionalData {
+  icao?: string;
+  country_code?: string;
+  latitude?: string;
+  longitude?: string;
+  city_code?: string;
+  region_name?: string;
+  phone?: string;
+  email?: string;
+  type?: string;
+  continent?: string;
+  scheduled_service?: string;
+  runway_length?: string;
+  elevation_ft?: string;
+  wikipedia_link?: string;
+  flightradar24_url?: string;
+  radarbox_url?: string;
+  flightaware_url?: string;
+  time?: string;
+  airport?: string;
+}
+
 export type SearchHistory = Airport;

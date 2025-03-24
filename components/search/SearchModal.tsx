@@ -6,10 +6,10 @@ import {
   ModalContent,
   // ModalFooter,
   ModalTrigger,
-} from "./ui/AnimatedModal";
-import AirportHistory from "./AirportHistory";
+} from "../ui/AnimatedModal";
+import AirportHistory from "../search/AirportHistory";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import SearchBar from "./SearchBar";
+import SearchBar from "../search/SearchBar";
 
 export function SearchModal() {
   return (

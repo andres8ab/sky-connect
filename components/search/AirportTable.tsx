@@ -1,5 +1,5 @@
 import { Airport } from "@/types/airport";
-import { Button } from "./ui/MovingBorders";
+import { Button } from "../ui/MovingBorders";
 import Image from "next/image";
 import ReactCountryFlag from "react-country-flag";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
