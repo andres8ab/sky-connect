@@ -3,10 +3,10 @@
 import { useQuery } from "@tanstack/react-query";
 import { useAirportStore } from "@/store/airportStore";
 import { airportService } from "@/services/airportService";
-import AirportTable from "@/components/AirportTable";
-import Pagination from "@/components/Pagination";
+import Pagination from "@/components/general/Pagination";
 import { motion } from "framer-motion";
-import { SearchModal } from "@/components/SearchModal";
+import AirportTable from "@/components/search/AirportTable";
+import { SearchModal } from "@/components/search/SearchModal";
 
 export default function Search() {
   const { currentPage, setTotalPages } = useAirportStore();
