@@ -63,7 +63,7 @@ export default function Pagination() {
   const pageNumbers = getPageNumbers();
 
   return (
-    <div className="flex items-center justify-between px-4 py-4 bg-gray-800 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 sm:px-6">
+    <div className="flex items-center justify-between px-4 py-4 sm:px-6">
       {/* Mobile pagination */}
       <div className="flex flex-1 flex-col sm:hidden gap-2">
         <div className="flex flex-1 justify-between">
@@ -91,8 +91,8 @@ export default function Pagination() {
       </div>
 
       {/* Desktop pagination */}
-      <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
-        <div>
+      <div className="hidden sm:flex sm:flex-1 flex-col sm:items-center sm:justify-between">
+        <div className="self-start">
           <p className="text-sm text-gray-300 dark:text-gray-300">
             Mostrando página <span className="font-medium">{currentPage}</span>{" "}
             de <span className="font-medium">{totalPages}</span>
@@ -100,7 +100,7 @@ export default function Pagination() {
         </div>
         <div>
           <nav
-            className="relative z-0 inline-flex rounded-md space-x-1"
+            className="relative z-0 inline-flex rounded-md space-x-3"
             aria-label="Pagination"
           >
             {/* Previous button */}
