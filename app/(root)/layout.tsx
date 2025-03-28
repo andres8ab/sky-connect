@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import ResponsiveNav from "@/components/Navbar/ResponsiveNav";
+import ResponsiveNav from "@/components/navbar/ResponsiveNav";
 import Footer from "@/components/general/Footer";
 import images from "@/constants/images";
 
