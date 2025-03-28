@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Logo from "../../public/assets/icons/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -10,6 +9,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { navLinks } from "@/constants/constants";
 import { useTheme } from "../ThemeProvider";
+import icons from "@/constants/icons";
 
 type Props = {
   openNav: () => void;
@@ -42,10 +42,10 @@ const Nav = ({ openNav }: Props) => {
           onClick={() => (window.location.href = "/")}
         >
           <div className="w-10 h-10 background-gradient rounded-full flex items-center justify-center flex-col">
-            <Image src={Logo} width={50} height={50} alt="logo" />
+            <Image src={icons.logo} width={50} height={50} alt="logo" />
           </div>
-          <h1 className="text-xl md:text-2xl font-bold uppercase text-transparent background-gradient bg-clip-text">
-            SkyConnect
+          <h1 className="text-xl md:text-2xl font-extrabold text-transparent background-gradient bg-clip-text">
+            SkyConnect Explorer
           </h1>
         </div>
         {/* links */}

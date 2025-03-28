@@ -16,7 +16,7 @@ export const airportService = {
           access_key: API_KEY,
           limit,
           offset: (page - 1) * limit,
-          search,
+          search: search,
         },
       });
 

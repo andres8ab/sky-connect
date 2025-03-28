@@ -7,14 +7,11 @@ import { airportService } from "@/services/airportService";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import airportData from "airport-data-js";
-import DetailsPage from "@/app/airport/[code]/_components/DetailsPage";
-import useIsMobile from "@/hooks/useIsMobile";
-import DetailsMobile from "@/app/airport/[code]/_components/DetailsMobile";
+import DetailsMobile from "./_components/DetailsMobile";
 
 export default function AirportDetails() {
   const params = useParams();
   const code = params.code as string;
-  const isMobile = useIsMobile();
   const { searchHistory } = useAirportStore();
   const [localTime, setLocalTime] = useState<Date | null>(null);
 
@@ -99,38 +96,11 @@ export default function AirportDetails() {
     );
   }
 
-  const formatLocalTime = (date: Date | null) => {
-    if (!date) return "Loading time...";
-    return new Intl.DateTimeFormat("es", {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-      timeZone: airport.timezone,
-    }).format(date);
-  };
-
-  if (isMobile) {
-    return (
-      <DetailsMobile
-        airport={airport}
-        localTime={localTime}
-        additionalData={additionalData}
-        formatLocalTime={formatLocalTime}
-        isLoadingAdditional={isLoadingAdditional}
-      />
-    );
-  }
-
   return (
-    <DetailsPage
+    <DetailsMobile
       airport={airport}
       localTime={localTime}
       additionalData={additionalData}
-      formatLocalTime={formatLocalTime}
       isLoadingAdditional={isLoadingAdditional}
     />
   );
